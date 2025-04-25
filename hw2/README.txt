@@ -32,3 +32,5 @@ The right answers are:
 
 integral of x^2 from 0 to 2: 8/3
 integral of sinx from 0 to pi: 2
+
+I'd say a decent number of steps to use for a mostly accurate answer is 16 - 32.
