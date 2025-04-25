@@ -25,3 +25,10 @@ To run (it will ask for size):
 gfortran -o runme ones.f90
 
 ./runme
+
+Q1:
+
+The right answers are:
+
+integral of x^2 from 0 to 2: 8/3
+integral of sinx from 0 to pi: 2
