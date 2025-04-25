@@ -1,6 +1,12 @@
 trap.f90:
 
-assuming you have gfortran installed:
+install gfortran and gnuplot:
+
+sudo apt install gfortran
+
+sudo apt install gnuplot
+
+assuming you have gfortran and gnuplot installed:
 
 gfortran -o runme trap_x2.f90
 
@@ -12,7 +18,8 @@ gfortran -o runme trap_sinx.f90
 
 This will ask for start, end, and step size points for the integral.
 
-If you want to see a graph for step values between 2^n where n = [0,8] (will still ask for range and what func to uses) run:
+If you want to see a graph for step values between 2^n where n = [0,8] 
+(will still ask for range and what func to uses) run:
 
 gfortran -o runme trap_plot.f90
 
